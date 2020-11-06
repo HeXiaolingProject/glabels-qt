@@ -45,14 +45,14 @@ artifacts:
   - path: build\glabels-%VERSION%-win64.exe
     name: windows-installer
 
-deploy:
-  - provider: GitHub
-    release: glabels-%VERSION%
-    artifact: windows-installer
-    auth_token:
-      secure: mPNNgwWP58gu4eA2wVwGkGWNTzJigKj1g/XjsZ9vk03rLMmf5fxC/XNr15fPBCi8
-    draft: false
-    prerelease: true
-    force_update: true
-    on:
-      branch: master
+#deploy:
+#  - provider: GitHub
+#    release: glabels-%VERSION%
+#    artifact: windows-installer
+#    auth_token:
+#      secure: mPNNgwWP58gu4eA2wVwGkGWNTzJigKj1g/XjsZ9vk03rLMmf5fxC/XNr15fPBCi8
+#    draft: false
+#    prerelease: true
+#    force_update: true
+#    on:
+#      branch: master
